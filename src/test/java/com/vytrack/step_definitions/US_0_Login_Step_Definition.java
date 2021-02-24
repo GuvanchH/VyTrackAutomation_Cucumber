@@ -42,7 +42,6 @@ public class US_0_Login_Step_Definition {
     
     @Then("user is on the home page and the title is {string}")
     public void userIsOnTheHomePageAndTheTitleIs(String expectedTitleName) {
-       // BrowserUtils.wait(5);
         WebDriverWait wait = new WebDriverWait(Driver.getDriver(),10);
         wait.until(ExpectedConditions.titleIs(expectedTitleName));
         
