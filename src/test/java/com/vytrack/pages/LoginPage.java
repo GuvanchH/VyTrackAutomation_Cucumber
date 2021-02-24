@@ -5,9 +5,9 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
-public class Login_Page {
+public class LoginPage {
     
-    public Login_Page() {
+    public LoginPage() {
         PageFactory.initElements(Driver.getDriver(), this);
     }
     
@@ -27,7 +27,9 @@ public class Login_Page {
     public WebElement rememberMe;
     
     @FindBy(id = "remember_me")
-    public WebElement ;
+    public WebElement forgotPassword;
+    
+   
     
     
     
